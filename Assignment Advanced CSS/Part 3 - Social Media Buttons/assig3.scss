@@ -1,0 +1,77 @@
+@import "./mixin";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  background-color: aquamarine;
+  height: 100%;
+}
+ul {
+  margin-top: 15%;
+}
+li {
+  text-align: center;
+  padding: 20px;
+  margin-left: 97%;
+  list-style-type: none;
+  color: white;
+  position: relative;
+}
+.pop {
+  text-align: center;
+  padding-top: -25px;
+}
+.midden {
+  transform: translate(-45%, -25%);
+}
+.blog {
+  background: #e17b77;
+  i {
+    transform: translateX(-35px);
+  }
+  @include media2();
+}
+.twitter {
+  background-color: #00aced;
+  i {
+    transform: translateX(-25px);
+  }
+  @include media2();
+}
+.linkedin {
+  background-color: #007bb6;
+  i {
+    transform: translateX(-30px);
+  }
+  @include media2();
+}
+.facebook {
+  background-color: #3b5998;
+  i {
+    transform: translateX(-20px);
+  }
+
+  @include media2();
+}
+.github {
+  background-color: #333;
+  i {
+    transform: translateX(-25px);
+  }
+  @include media2();
+}
+@keyframes social {
+  0% {
+    margin-left: 97%;
+  }
+
+  50% {
+    margin-left: 87%;
+  }
+  100% {
+    margin-left: 97%;
+  }
+}

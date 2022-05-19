@@ -1,0 +1,170 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: aquamarine;
+  height: 100%;
+}
+
+ul {
+  margin-top: 15%;
+}
+
+li {
+  text-align: center;
+  padding: 20px;
+  margin-left: 97%;
+  list-style-type: none;
+  color: white;
+  position: relative;
+}
+
+.pop {
+  text-align: center;
+  padding-top: -25px;
+}
+
+.midden {
+  -webkit-transform: translate(-45%, -25%);
+          transform: translate(-45%, -25%);
+}
+
+.blog {
+  background: #e17b77;
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.blog i {
+  -webkit-transform: translateX(-35px);
+          transform: translateX(-35px);
+}
+
+.blog:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.twitter {
+  background-color: #00aced;
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.twitter i {
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px);
+}
+
+.twitter:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.linkedin i {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.facebook {
+  background-color: #3b5998;
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.facebook i {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+.facebook:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.github {
+  background-color: #333;
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.github i {
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px);
+}
+
+.github:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+@-webkit-keyframes social {
+  0% {
+    margin-left: 97%;
+  }
+  50% {
+    margin-left: 87%;
+  }
+  100% {
+    margin-left: 97%;
+  }
+}
+
+@keyframes social {
+  0% {
+    margin-left: 97%;
+  }
+  50% {
+    margin-left: 87%;
+  }
+  100% {
+    margin-left: 97%;
+  }
+}
+/*# sourceMappingURL=assig3.css.map */

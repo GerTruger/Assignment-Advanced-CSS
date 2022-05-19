@@ -1,0 +1,12 @@
+@mixin media2 {
+  width: 250px;
+  height: 50px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 15px;
+  &:hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: social;
+  }
+}
